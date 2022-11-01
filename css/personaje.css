@@ -1,0 +1,88 @@
+.pjHoja{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.pjDatos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenPersonaje{
+    background: url('../img/layout/habilidades.png');
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.imagenPersonaje img{
+    /* ACA MODIFICAS LAS CARACTERISTICAS DE LA FOTO DE PERSONAJE ┐(￣ヘ￣; )┌ */
+
+}
+
+.pjPersonales{
+    margin-left: 10px;
+    background: url('../img/layout/datos.png');
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 600px;
+}
+
+.datos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-bottom: -15px;
+    padding: 0 35px 0 20px;
+}
+
+.pjNumeros {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.pjCaracteristicas{
+    width: 195px;
+    height: 145px;
+    background: url('../img/layout/caracteristica.png');
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.caracteristica{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.pjPoderes {
+    background: url('../img/layout/poderes.png');
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+}

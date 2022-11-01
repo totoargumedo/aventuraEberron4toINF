@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'MedievalSharp', cursive;
+    background-image: url('../img/varios/fondo3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.welcome{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.welcome p {
+    box-shadow: black 5px ;
+}
+
+.mapa{
+    background: url('../img/maps/KhorvaireSur.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.taberna {
+    background: url('../img/maps/taberna.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.entrada {
+    background: url('../img/maps/entrada.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.mapaCompleto{
+    background: url('../img/maps/KhorvaireMini.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 180px;
+    border: solid white 2px;
+    box-shadow: 3px black;
+}
+
+.mapa a{
+    padding: 5px;
+    font-size: larger;
+    font-weight: 600;
+    color:aliceblue;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, .5); 
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+
+.flecha{
+    color: white;
+   font-size: x-large;
+   font-weight: 600;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    
+}
+
+.flecha:hover{
+    color: white;
+    transition: all .5s;
+}
+
+.flechaTexto{
+    opacity: 0;
+}
+
+.flechaTexto:hover{
+    transition: all .5s;
+    opacity: 100;
+}
+
+.footerTexto{
+    font-size: x-large;
+}
+
+.footerImg{
+    max-height: 6vh;
+}
